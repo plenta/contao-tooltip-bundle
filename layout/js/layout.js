@@ -11,12 +11,17 @@ document.addEventListener('DOMContentLoaded', function () {
                     modal = document.createElement('dialog');
                     modal.id = 'plenta-modal-' + tooltip.dataset.id;
                     modal.innerHTML = r.buffer;
+                    modal.classList.add('plenta-modal');
+
                     let button = document.createElement('button');
                     button.innerText = r.buttonText;
                     button.addEventListener('click', function () {
                         modal.close();
                     })
+
+                    button.classList.add('plenta-modal-close');
                     modal.append(button);
+
                     document.querySelector('body').append(modal);
                     modal.showModal();
                 })

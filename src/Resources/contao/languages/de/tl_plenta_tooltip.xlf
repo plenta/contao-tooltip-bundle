@@ -32,6 +32,33 @@
             <trans-unit id="tl_plenta_tooltip.copyInsertTag.1">
                 <target>Insert-Tag in die Zwischenablage kopieren</target>
             </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.type.0">
+                <target>Typ</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.type.1">
+                <target>Bitte wählen Sie einen Typen aus.</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.mode.0">
+                <target>Modus</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.mode.1">
+                <target>Bitte wählen Sie einen Modus aus.</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.typeRef.folder">
+                <target>Ordner</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.typeRef.content">
+                <target>Inhalt</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.modeRef.modal">
+                <target>Popup-Fenster</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.modeRef.tooltip">
+                <target>Tooltip</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.tstamp.0">
+                <target>Letzte Änderung</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

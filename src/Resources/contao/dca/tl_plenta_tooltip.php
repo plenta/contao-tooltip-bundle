@@ -118,8 +118,16 @@ $GLOBALS['TL_DCA']['tl_plenta_tooltip'] = [
             'exclude' => true,
             'inputType' => 'select',
             'options' => ['folder', 'content'],
-            'reference' => &$GLOBALS['TL_LANG']['tl_plenta_tooltip']['optionsRef'],
+            'reference' => &$GLOBALS['TL_LANG']['tl_plenta_tooltip']['typeRef'],
+            'eval' => ['submitOnChange' => true, 'tl_class' => 'clr'],
             'sql' => "varchar(16) NOT NULL default ''",
+        ],
+        'mode' => [
+            'exclude' => true,
+            'inputType' => 'select',
+            'options' => ['modal', 'tooltip'],
+            'reference' => &$GLOBALS['TL_LANG']['tl_plenta_tooltip']['modeRef'],
+            'sql' => "varchar(16) NOT NULL default 'modal'",
         ],
     ],
 ];
