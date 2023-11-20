@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="tl_plenta_tooltip.title.0">
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.title.1">
+                <target>Bitte geben Sie einen Titel ein.</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.alias.0">
+                <target>Alias</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.alias.1">
+                <target>Der Tooltipalias ist eine eindeutige Referenz, die anstelle der numerischen Tooltip-ID aufgerufen werden kann.</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.published.0">
+                <target>Tooltip veröffentlichen</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.published.1">
+                <target>Der Tooltip wird veröffentlicht.</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.title_legend">
+                <target>Titel-Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.published_legend">
+                <target>Veröffentlichung</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.copyInsertTag.0">
+                <target>Insert-Tag kopieren</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.copyInsertTag.1">
+                <target>Insert-Tag in die Zwischenablage kopieren</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

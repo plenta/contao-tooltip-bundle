@@ -1,0 +1,7 @@
+.plenta-tooltip {
+    &:before {
+        display: inline-block;
+        content: "*";
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name":"plenta/contao-tooltip-bundle",
+    "description":"Tooltip Bundle",
+    "keywords":["contao", "tooltip"],
+    "type":"contao-bundle",
+    "license":"proprietary",
+    "authors":[
+        {
+            "name":"Plenta",
+            "homepage":"https://plenta.io",
+            "role":"Developer"
+        }
+    ],
+    "version": "1.0",
+    "homepage": "https://github.com/plenta/contao-tootlip-bundle",
+    "support":{
+        "issues":"https://github.com/plenta/contao-tooltip-bundle/issues",
+        "source":"https://github.com/plenta/contao-tooltip-bundle"
+    },
+    "require":{
+        "php":"^7.4 || ^8.1",
+        "contao/core-bundle": "^4.9 || ^4.13"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.12",
+        "contao/manager-bundle": "^4.9"
+    },
+    "extra": {
+        "contao-manager-plugin": "Plenta\\TooltipBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plenta\\TooltipBundle\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "contao-components/installer": true,
+            "contao/manager-plugin": true,
+            "contao-community-alliance/composer-plugin": true,
+            "php-http/discovery": true
+        }
+    }
+}

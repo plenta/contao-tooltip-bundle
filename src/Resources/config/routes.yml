@@ -1,0 +1,5 @@
+plenta_tooltip:
+    resource: ../../Controller
+    type: annotation
+    defaults:
+        _scope: "frontend"
