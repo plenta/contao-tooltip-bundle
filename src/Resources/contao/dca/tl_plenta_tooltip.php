@@ -1,5 +1,16 @@
 <?php
 
+declare(strict_types=1);
+
+/**
+ * Plenta Tooltip Bundle for Contao Open Source CMS
+ *
+ * @copyright     Copyright (c) 2023, Plenta.io
+ * @author        Plenta.io <https://plenta.io>
+ * @license       proprietary
+ * @link          https://github.com/plenta/
+ */
+
 $GLOBALS['TL_DCA']['tl_plenta_tooltip'] = [
     'config' => [
         'dataContainer' => 'Table',
@@ -10,7 +21,7 @@ $GLOBALS['TL_DCA']['tl_plenta_tooltip'] = [
             ],
         ],
         'ctable' => [
-            'tl_content'
+            'tl_content',
         ],
         'label' => &$GLOBALS['TL_LANG']['MOD']['tooltip'][0],
     ],
@@ -83,13 +94,13 @@ $GLOBALS['TL_DCA']['tl_plenta_tooltip'] = [
             'sql' => 'int(10) unsigned NOT NULL auto_increment',
         ],
         'sorting' => [
-            'sql' => "int(10) unsigned NOT NULL default '0'",
+            'sql' => 'int(10) unsigned NOT NULL default 0',
         ],
         'tstamp' => [
-            'sql' => "int(10) unsigned NOT NULL default '0'",
+            'sql' => 'int(10) unsigned NOT NULL default 0',
         ],
         'pid' => [
-            'sql' => "int(10) unsigned NOT NULL default '0'",
+            'sql' => 'int(10) unsigned NOT NULL default 0',
         ],
         'published' => [
             'inputType' => 'checkbox',
