@@ -40,7 +40,7 @@ class AjaxController extends AbstractController
         }
 
         return new JsonResponse([
-            'buffer' => $buffer,
+            'buffer' => '<!-- indexer::stop -->'.$buffer.'<!-- indexer::continue -->',
             'buttonText' => $translator->trans(
                 'MSC.close',
                 [],
