@@ -48,11 +48,11 @@ class InsertTagListener
 
     public function includeAssets(): void
     {
-        if (empty($GLOBALS['TL_JAVASCRIPT']['plenta_tooltip'])) {
-            $GLOBALS['TL_JAVASCRIPT']['plenta_tooltip'] = $this->packages->getUrl('plentatooltip/layout.js', 'plentatooltip');
+        if (false === isset($GLOBALS['TL_BODY']['plenta_tooltip_js'])) {
+            $GLOBALS['TL_BODY']['plenta_tooltip_js'] = '<script src="'.$this->packages->getUrl('plentatooltip/layout.js', 'plentatooltip').'" defer ></script>';
         }
 
-        if (empty($GLOBALS['TL_CSS']['plenta_tooltip'])) {
+        if (false === isset($GLOBALS['TL_CSS']['plenta_tooltip'])) {
             $GLOBALS['TL_CSS']['plenta_tooltip'] = $this->packages->getUrl('plentatooltip/layout.css', 'plentatooltip');
         }
     }
