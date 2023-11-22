@@ -86,6 +86,7 @@ $GLOBALS['TL_DCA']['tl_plenta_tooltip'] = [
     ],
     'palettes' => [
         '__selector__' => ['type'],
+        'default' => '{title_legend},title,type',
         'content' => '{title_legend},title,alias,type;{published_legend},published',
         'folder' => '{title_legend},title,type',
     ],
@@ -130,7 +131,7 @@ $GLOBALS['TL_DCA']['tl_plenta_tooltip'] = [
             'inputType' => 'select',
             'options' => ['folder', 'content'],
             'reference' => &$GLOBALS['TL_LANG']['tl_plenta_tooltip']['typeRef'],
-            'eval' => ['submitOnChange' => true, 'tl_class' => 'clr'],
+            'eval' => ['submitOnChange' => true, 'tl_class' => 'clr', 'mandatory' => true],
             'sql' => "varchar(16) NOT NULL default ''",
         ],
         'mode' => [

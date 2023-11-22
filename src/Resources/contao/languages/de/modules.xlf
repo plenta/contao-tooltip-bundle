@@ -2,10 +2,10 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" target-language="de" datatype="plaintext" original="file.ext">
         <body>
-            <trans-unit id="MOD.tooltip.0">
+            <trans-unit id="MOD.plenta_tooltip.0">
                 <target>Tooltips</target>
             </trans-unit>
-            <trans-unit id="MOD.tooltip.1">
+            <trans-unit id="MOD.plenta_tooltip.1">
                 <target>Tooltips und deren Inhaltselemente verwalten</target>
             </trans-unit>
         </body>

@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 use Plenta\TooltipBundle\Models\TooltipModel;
 
-$GLOBALS['BE_MOD']['content']['tooltip'] = [
+$GLOBALS['BE_MOD']['content']['plenta_tooltip'] = [
     'tables' => [TooltipModel::getTable(), 'tl_content'],
 ];
 
