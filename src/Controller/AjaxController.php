@@ -30,7 +30,7 @@ class AjaxController extends AbstractController
      *
      * @param mixed $id
      */
-    public function getTooltip($id, TranslatorInterface $translator)
+    public function getTooltip($id, TranslatorInterface $translator): JsonResponse
     {
         $tooltip = TooltipModel::findByIdOrAlias($id);
         $buffer = '';
@@ -39,6 +39,13 @@ class AjaxController extends AbstractController
             $buffer .= Controller::getContentElement($contentElement->id);
         }
 
-        return new JsonResponse(['buffer' => $buffer, 'buttonText' => $translator->trans('MSC.close', [], 'contao_default')]);
+        return new JsonResponse([
+            'buffer' => $buffer,
+            'buttonText' => $translator->trans(
+                'MSC.close',
+                [],
+                'contao_default'
+            ),
+        ]);
     }
 }
