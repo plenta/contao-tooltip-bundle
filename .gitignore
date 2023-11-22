@@ -16,9 +16,6 @@ Thumbs.db
 !.idea/jsLinters/jshint.xml
 nbproject/
 
-# App config
-/app/config/parameters.yml
-
 # Generated folders
 /assets/
 /files/
@@ -27,21 +24,8 @@ nbproject/
 /vendor/
 /web/*
 .htaccess
-composer.phar
-gulp.config.js
 /node_modules/
 /app/Resources/contao/config/runonce*.php
 /app
 composer.lock
 package-lock.json
-
-# Ioncube
-/ioncube/encoded
-
-# Contao Manager
-/contao-manager/
-
-# Ausßnamhen
-#!/web/layout/
-/.env.local
-/webpack.config.browsersync.js
