@@ -276,7 +276,7 @@ class TlPlentaTooltip
     {
         $image = 'folder' === $row['type'] ? 'folderC' : 'articles';
 
-        if (!$row['published']) {
+        if ($row['type'] === 'content' && !$row['published']) {
             $image .= '_';
         }
 
