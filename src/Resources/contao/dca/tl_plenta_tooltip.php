@@ -7,7 +7,7 @@ declare(strict_types=1);
  *
  * @copyright     Copyright (c) 2023, Plenta.io
  * @author        Plenta.io <https://plenta.io>
- * @license       proprietary
+ * @license       LGPL
  * @link          https://github.com/plenta/
  */
 

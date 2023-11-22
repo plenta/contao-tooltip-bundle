@@ -7,7 +7,7 @@ declare(strict_types=1);
  *
  * @copyright     Copyright (c) 2023, Plenta.io
  * @author        Plenta.io <https://plenta.io>
- * @license       proprietary
+ * @license       LGPL
  * @link          https://github.com/plenta/
  */
 
@@ -25,7 +25,6 @@ use Contao\Input;
 use Contao\StringUtil;
 use Contao\System;
 use Contao\Versions;
-use Exception;
 use Plenta\TooltipBundle\Models\TooltipModel;
 
 class TlPlentaTooltip
@@ -51,9 +50,9 @@ class TlPlentaTooltip
                 $doesAliasExist
             );
         } elseif (preg_match('/^[1-9]\d*$/', $varValue)) {
-            throw new Exception(sprintf($GLOBALS['TL_LANG']['ERR']['aliasNumeric'], $varValue));
+            throw new \Exception(sprintf($GLOBALS['TL_LANG']['ERR']['aliasNumeric'], $varValue));
         } elseif ($doesAliasExist($varValue)) {
-            throw new Exception(sprintf($GLOBALS['TL_LANG']['ERR']['aliasExists'], $varValue));
+            throw new \Exception(sprintf($GLOBALS['TL_LANG']['ERR']['aliasExists'], $varValue));
         }
 
         return $varValue;
@@ -276,7 +275,7 @@ class TlPlentaTooltip
     {
         $image = 'folder' === $row['type'] ? 'folderC' : 'articles';
 
-        if ($row['type'] === 'content' && !$row['published']) {
+        if ('content' === $row['type'] && !$row['published']) {
             $image .= '_';
         }
 
