@@ -9,7 +9,7 @@ $header = <<<EOF
 
     @copyright     Copyright (c) $date, Plenta.io
     @author        Plenta.io <https://plenta.io>
-    @license       proprietary
+    @license       LGPL
     @link          https://github.com/plenta/
     EOF;
 
@@ -39,7 +39,7 @@ return $config->setRules(
         'combine_consecutive_issets' => true,
         'combine_consecutive_unsets' => true,
         'comment_to_phpdoc' => true,
-        'compact_nullable_typehint' => true,
+        'compact_nullable_type_declaration' => true,
         'general_phpdoc_annotation_remove' => [
             'annotations' => [
                 'author',

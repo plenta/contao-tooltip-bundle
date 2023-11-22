@@ -21,8 +21,8 @@
         "contao/core-bundle": "^4.9 || ^4.13"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.12",
-        "contao/manager-bundle": "^4.9"
+        "contao/manager-bundle": "^4.9",
+        "friendsofphp/php-cs-fixer": "^v3.38.2"
     },
     "extra": {
         "contao-manager-plugin": "Plenta\\TooltipBundle\\ContaoManager\\Plugin"
