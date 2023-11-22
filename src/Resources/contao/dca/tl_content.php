@@ -14,6 +14,6 @@ declare(strict_types=1);
 use Contao\Input;
 use Plenta\TooltipBundle\Models\TooltipModel;
 
-if ('tooltip' === Input::get('do')) {
+if ('plenta_tooltip' === Input::get('do')) {
     $GLOBALS['TL_DCA']['tl_content']['config']['ptable'] = TooltipModel::getTable();
 }
