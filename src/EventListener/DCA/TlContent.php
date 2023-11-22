@@ -24,7 +24,7 @@ class TlContent
      */
     public function onLoad(): void
     {
-        if ('tooltip' !== Input::get('do')) {
+        if ('plenta_tooltip' !== Input::get('do')) {
             return;
         }
 
