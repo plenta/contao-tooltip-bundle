@@ -60,13 +60,13 @@
                 <target>Letzte Änderung</target>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.cssID.0">
-                <target>CSS-ID/Klasse</target>
+                <target>CSS ID/class</target>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.cssID.1">
-                <target>Hier können Sie eine ID und beliebig viele Klassen eingeben.</target>
+                <source>Hier können Sie eine ID und beliebig viele Klassen eingeben.</source>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.expert_legend">
-                <target>Experteneinstellungen</target>
+                <target>Expert settings</target>
             </trans-unit>
         </body>
     </file>
