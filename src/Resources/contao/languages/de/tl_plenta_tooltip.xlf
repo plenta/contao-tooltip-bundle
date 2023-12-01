@@ -59,14 +59,29 @@
             <trans-unit id="tl_plenta_tooltip.tstamp.0">
                 <target>Letzte Änderung</target>
             </trans-unit>
-            <trans-unit id="tl_plenta_tooltip.cssID.0">
-                <target>CSS-ID/Klasse</target>
+            <trans-unit id="tl_plenta_tooltip.cssClass.0">
+                <target>CSS-Klasse</target>
             </trans-unit>
-            <trans-unit id="tl_plenta_tooltip.cssID.1">
-                <target>Hier können Sie eine ID und beliebig viele Klassen eingeben.</target>
+            <trans-unit id="tl_plenta_tooltip.cssClass.1">
+                <target>Hier können Sie beliebig viele Klassen eingeben.</target>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.expert_legend">
                 <target>Experteneinstellungen</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.sizeRef.large">
+                <target>Groß</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.sizeRef.medium">
+                <target>Mittel</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.sizeRef.small">
+                <target>Klein</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.size.0">
+                <target>Größe</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.cssID.1">
+                <target>Hier können Sie eine Größe auswählen.</target>
             </trans-unit>
         </body>
     </file>

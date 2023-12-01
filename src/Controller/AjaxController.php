@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Plenta\TooltipBundle\Controller;
 
 use Contao\Controller;
+use Contao\StringUtil;
 use Plenta\TooltipBundle\Models\TooltipModel;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -30,7 +31,7 @@ class AjaxController extends AbstractController
      *
      * @param mixed $id
      */
-    public function getTooltip($id, TranslatorInterface $translator): JsonResponse
+    public function getTooltip($id, TranslatorInterface $translator, array $plentaTooltipSizes): JsonResponse
     {
         $tooltip = TooltipModel::findByIdOrAlias($id);
         $buffer = '';
@@ -39,6 +40,15 @@ class AjaxController extends AbstractController
             $buffer .= Controller::getContentElement($contentElement->id);
         }
 
+        $classes = explode(' ', $tooltip->cssClass);
+
+        if ($tooltip->size && ($size = $plentaTooltipSizes[$tooltip->size] ?? null)) {
+            $sizeClasses = explode(' ', ($size['cssClass'] ?? ''));
+            $classes = array_merge($classes, $sizeClasses);
+        }
+
+        $classes = array_filter($classes);
+
         return new JsonResponse([
             'buffer' => '<!-- indexer::stop -->'.$buffer.'<!-- indexer::continue -->',
             'buttonText' => $translator->trans(
@@ -46,6 +56,7 @@ class AjaxController extends AbstractController
                 [],
                 'contao_default'
             ),
+            'classes' => $classes,
         ]);
     }
 }

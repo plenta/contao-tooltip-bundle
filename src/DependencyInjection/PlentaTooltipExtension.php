@@ -27,5 +27,9 @@ class PlentaTooltipExtension extends Extension
     {
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
+
+        $configuration = new Configuration();
+        $config = $this->processConfiguration($configuration, $configs);
+        $container->setParameter('plenta_tooltip.tooltip_sizes', $config['tooltip_sizes']);
     }
 }

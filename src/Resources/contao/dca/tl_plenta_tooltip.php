@@ -86,7 +86,7 @@ $GLOBALS['TL_DCA']['tl_plenta_tooltip'] = [
     'palettes' => [
         '__selector__' => ['type'],
         'default' => '{title_legend},title,type',
-        'content' => '{title_legend},title,alias,type;{expert_legend:hide},cssID;{published_legend},published',
+        'content' => '{title_legend},title,alias,type;{expert_legend:hide},cssClass,size;{published_legend},published',
         'folder' => '{title_legend},title,type',
     ],
     'fields' => [
@@ -140,10 +140,17 @@ $GLOBALS['TL_DCA']['tl_plenta_tooltip'] = [
             'reference' => &$GLOBALS['TL_LANG']['tl_plenta_tooltip']['modeRef'],
             'sql' => "varchar(16) NOT NULL default 'modal'",
         ],
-        'cssID' => [
+        'cssClass' => [
             'exclude' => true,
             'inputType' => 'text',
-            'eval' => ['multiple' => true, 'size' => 2, 'tl_class' => 'w50 clr'],
+            'eval' => ['tl_class' => 'w50 clr'],
+            'sql' => "varchar(255) NOT NULL default ''",
+        ],
+        'size' => [
+            'exclude' => true,
+            'inputType' => 'select',
+            'eval' => ['includeBlankOption' => true, 'tl_class' => 'clr w50'],
+            'reference' => &$GLOBALS['TL_LANG']['tl_plenta_tooltip']['sizeRef'],
             'sql' => "varchar(255) NOT NULL default ''",
         ],
     ],

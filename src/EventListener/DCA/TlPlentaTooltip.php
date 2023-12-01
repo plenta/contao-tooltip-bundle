@@ -30,10 +30,12 @@ use Plenta\TooltipBundle\Models\TooltipModel;
 class TlPlentaTooltip
 {
     protected Slug $slug;
+    protected array $plentaTooltipSizes;
 
-    public function __construct(Slug $slug)
+    public function __construct(Slug $slug, array $plentaTooltipSizes)
     {
         $this->slug = $slug;
+        $this->plentaTooltipSizes = $plentaTooltipSizes;
     }
 
     /**
@@ -286,5 +288,13 @@ class TlPlentaTooltip
         );
 
         return Image::getHtml($image.'.svg', '', $attributes).' '.$label;
+    }
+
+    /**
+     * @Callback(table="tl_plenta_tooltip", target="fields.size.options")
+     */
+    public function getSizeOptions()
+    {
+        return array_keys($this->plentaTooltipSizes);
     }
 }

@@ -3,6 +3,8 @@ services:
         autowire: true
         autoconfigure: true
         public: false
+        bind:
+            $plentaTooltipSizes: '%plenta_tooltip.tooltip_sizes%'
 
     Plenta\TooltipBundle\:
         resource: ../../
