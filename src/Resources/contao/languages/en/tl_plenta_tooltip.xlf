@@ -65,6 +65,12 @@
             <trans-unit id="tl_plenta_tooltip.cssID.1">
                 <source>Hier können Sie eine ID und beliebig viele Klassen eingeben.</source>
             </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.size.0">
+                <target>Dialoggröße</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.size.1">
+                <target>Hier können Sie die maximale Breite des Dialoges auswählen (Je nach Browser kann die maximale Breite variieren).</target>
+            </trans-unit>
             <trans-unit id="tl_plenta_tooltip.expert_legend">
                 <target>Expert settings</target>
             </trans-unit>

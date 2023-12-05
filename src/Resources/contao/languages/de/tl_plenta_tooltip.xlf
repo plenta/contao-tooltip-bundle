@@ -69,16 +69,19 @@
                 <target>Experteneinstellungen</target>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.sizeRef.large">
-                <target>Groß</target>
+                <target>groß</target>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.sizeRef.medium">
-                <target>Mittel</target>
+                <target>mittel</target>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.sizeRef.small">
-                <target>Klein</target>
+                <target>klein</target>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.size.0">
-                <target>Größe</target>
+                <target>Dialoggröße</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_tooltip.size.1">
+                <target>Hier können Sie die maximale Breite des Dialoges auswählen (Je nach Browser kann die maximale Breite variieren).</target>
             </trans-unit>
             <trans-unit id="tl_plenta_tooltip.cssID.1">
                 <target>Hier können Sie eine Größe auswählen.</target>
