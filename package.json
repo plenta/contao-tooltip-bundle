@@ -24,9 +24,6 @@
         "watch": "encore dev --watch  --config-name default",
         "build": "encore production --progress  --config-name default"
     },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "^6.4.2"
-    },
     "browserslist": [
         "last 3 version",
         "> 1%",

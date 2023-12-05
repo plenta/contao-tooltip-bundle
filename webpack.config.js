@@ -1,7 +1,7 @@
 let Encore = require('@symfony/webpack-encore');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const BrowserSyncConfig = require('./webpack.config.browsersync.js');
+//const BrowserSyncConfig = require('./webpack.config.browsersync.js');
 const url = require("url");
 const fileSync = require("fs");
 const mime = require("mime");
@@ -36,7 +36,7 @@ Encore
         babelConfig.plugins.push('@babel/plugin-transform-runtime');
     }, {})
 
-    .addPlugin(
+    /*.addPlugin(
         new BrowserSyncPlugin({
             // browse to http://localhost:3000/ during development,
             // ./public directory is being served
@@ -146,7 +146,8 @@ Encore
                 },
             ]
         })
-    );
+    )*/
+;
 
 let defaultConfig = Encore.getWebpackConfig();
 

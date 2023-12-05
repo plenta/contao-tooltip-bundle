@@ -1,7 +1,33 @@
+:root {
+    --plenta-tooltip-max-width-large: 1280px;
+    --plenta-tooltip-max-width-medium: 680px;
+    --plenta-tooltip-max-width-small: 380px;
+    --plenta-tooltip-max-width-default: var(--plenta-tooltip-max-width-large);
+}
+
 .plenta-tooltip {
     &:before {
         display: inline-block;
         content: "*";
         cursor: pointer;
+    }
+}
+
+dialog {
+    &.plenta-modal {
+        box-sizing: border-box;
+        max-width: var(--plenta-tooltip-max-width-default);
+
+        &.tooltip-large {
+            max-width: var(--plenta-tooltip-max-width-large);
+        }
+
+        &.tooltip-medium {
+            max-width: var(--plenta-tooltip-max-width-medium);
+        }
+
+        &.tooltip-small {
+            max-width: var(--plenta-tooltip-max-width-small);
+        }
     }
 }
