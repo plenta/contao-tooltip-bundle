@@ -47,7 +47,7 @@ Each predefined tooltip size corresponds to a specific CSS custom property, offe
     --plenta-tooltip-max-width-large: 1280px;
     --plenta-tooltip-max-width-medium: 680px;
     --plenta-tooltip-max-width-small: 380px;
-    --plenta-tooltip-max-width-default: var(--plenta-tooltip-max-width-large);
+    --plenta-tooltip-max-width-default: var(--plenta-tooltip-max-width-medium);
 }
 ```
 
