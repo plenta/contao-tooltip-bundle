@@ -17,8 +17,8 @@
         "source":"https://github.com/plenta/contao-tooltip-bundle"
     },
     "require":{
-        "php":"^7.4 || ^8.1",
-        "contao/core-bundle": "^4.9 || ^4.13 || ^5.3"
+        "php":"^8.1",
+        "contao/core-bundle": "^4.13 || ^5.3"
     },
     "require-dev": {
         "contao/manager-bundle": "^5.3",

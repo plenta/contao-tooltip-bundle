@@ -12,6 +12,11 @@ Encore
     .setManifestKeyPrefix('plentatooltip')
 
     .addEntry('layout', './layout/js/layout.js')
+    .addEntry('overlay_showAfterScroll', './layout/js/overlay_showAfterScroll.js')
+    .addEntry('overlay_showAfterTime', './layout/js/overlay_showAfterTime.js')
+    .addEntry('overlay_showOnExit', './layout/js/overlay_showOnExit.js')
+    .addEntry('overlay_showOnPageLoad', './layout/js/overlay_showOnPageLoad.js')
+    .addStyleEntry('overlay_default', './layout/scss/overlay_default.scss')
 
     //.splitEntryChunks()
 

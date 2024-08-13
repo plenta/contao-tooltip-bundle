@@ -1,0 +1,6 @@
+/**
+ * @package   EuF-Overlay
+ * @author    Sebastian Buck
+ * @license   LGPL
+ * @copyright Erdmann & Freunde
+ */

@@ -1,0 +1,24 @@
+<div id='euf_overlay' class='euf_overlay' data-moduleid='{{ id }}'
+  {% if data_delay|default %}data-delay='{{ data_delay }}'{% endif %}
+  {% if data_percent|default %}data-percent='{{ data_percent }}'{% endif %}
+  {% if data_expires|default %}data-expires='{{ data_expires }}'{% endif %}
+  >
+  <div class='euf_overlay__content {{ element_css_classes|default(class|default) }} block'{% if element_html_id|default %} id="{{ element_html_id }}"{% else %}{{ cssID|default }}{% endif %}>
+
+    <button class='euf_overlay__close'>
+      &times;
+    </button>
+
+    {% if (hl|default and headline|default) or (headline.text|default) %}
+      <{{ hl|default(headline.tag_name|default) }}>{{ headline.text|default(headline) }}</{{ hl|default(headline.tag_name|default) }}>
+    {% endif %}
+
+    {% if overlay_richtext|default %}
+      {{ overlay_richtext|insert_tag|raw }}
+    {% endif %}
+
+    {% if overlay_html|default %}
+      {{ overlay_html|insert_tag|raw }}
+    {% endif %}
+  </div>
+</div>

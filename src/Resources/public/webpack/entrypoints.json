@@ -2,10 +2,35 @@
   "entrypoints": {
     "layout": {
       "css": [
-        "/bundles/plentatooltip/webpack/layout.8dbe9352.css"
+        "/bundles/plentatooltip/webpack/layout.f5dba401.css"
       ],
       "js": [
-        "/bundles/plentatooltip/webpack/layout.06869582.js"
+        "/bundles/plentatooltip/webpack/layout.94bc17bf.js"
+      ]
+    },
+    "overlay_showAfterScroll": {
+      "js": [
+        "/bundles/plentatooltip/webpack/overlay_showAfterScroll.d2da28dd.js"
+      ]
+    },
+    "overlay_showAfterTime": {
+      "js": [
+        "/bundles/plentatooltip/webpack/overlay_showAfterTime.26c3322c.js"
+      ]
+    },
+    "overlay_showOnExit": {
+      "js": [
+        "/bundles/plentatooltip/webpack/overlay_showOnExit.f683226c.js"
+      ]
+    },
+    "overlay_showOnPageLoad": {
+      "js": [
+        "/bundles/plentatooltip/webpack/overlay_showOnPageLoad.fdf29784.js"
+      ]
+    },
+    "overlay_default": {
+      "css": [
+        "/bundles/plentatooltip/webpack/overlay_default.e883c860.css"
       ]
     }
   }
