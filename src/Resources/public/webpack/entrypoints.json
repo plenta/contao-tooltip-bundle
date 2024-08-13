@@ -2,10 +2,10 @@
   "entrypoints": {
     "layout": {
       "css": [
-        "/bundles/plentatooltip/webpack/layout.f5dba401.css"
+        "/bundles/plentatooltip/webpack/layout.8dbe9352.css"
       ],
       "js": [
-        "/bundles/plentatooltip/webpack/layout.94bc17bf.js"
+        "/bundles/plentatooltip/webpack/layout.06869582.js"
       ]
     }
   }

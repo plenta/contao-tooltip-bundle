@@ -1,8 +1,8 @@
 plenta_tooltip:
     tooltip_sizes:
-        small:
-            cssClass: tooltip-small
-        medium:
-            cssClass: tooltip-medium
         large:
             cssClass: tooltip-large
+        medium:
+            cssClass: tooltip-medium
+        small:
+            cssClass: tooltip-small

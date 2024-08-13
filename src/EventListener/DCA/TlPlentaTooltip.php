@@ -278,13 +278,13 @@ class TlPlentaTooltip
         $image = 'folder' === $row['type'] ? 'folderC' : 'articles';
 
         if ('content' === $row['type'] && !$row['published']) {
-            $image .= '_';
+            $image .= '_1';
         }
 
         $attributes = sprintf(
             'data-icon="%s" data-icon-disabled="%s"',
-            Image::getPath(rtrim($image, '_')),
-            Image::getPath(rtrim($image, '_').'_')
+            Image::getPath(str_replace('_1', '', $image)),
+            Image::getPath(str_replace('_1', '', $image).('content' === $row['type'] ? '_1' : ''))
         );
 
         return Image::getHtml($image.'.svg', '', $attributes).' '.$label;

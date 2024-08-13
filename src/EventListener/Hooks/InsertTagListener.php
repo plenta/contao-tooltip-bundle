@@ -39,8 +39,10 @@ class InsertTagListener
             if ($tooltip && $tooltip->published && $tooltip->getContentElements()) {
                 $this->includeAssets();
 
-                return '<span class="plenta-tooltip" data-id="'.$tooltip->id.'"></span>';
+                return '<span class="plenta-tooltip'.($tooltip->text ? ' no-asterisk' : '').'" data-id="'.$tooltip->id.'">'.$tooltip->text.'</span>';
             }
+
+            return '';
         }
 
         return false;

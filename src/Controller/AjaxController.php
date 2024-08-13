@@ -41,12 +41,13 @@ class AjaxController extends AbstractController
         }
 
         $classes = explode(' ', $tooltip->cssClass);
-        $classes = array_filter($classes);
 
         if ($tooltip->size && ($size = $plentaTooltipSizes[$tooltip->size] ?? null)) {
             $sizeClasses = explode(' ', ($size['cssClass'] ?? ''));
             $classes = array_merge($classes, $sizeClasses);
         }
+
+        $classes = array_filter($classes);
 
         return new JsonResponse([
             'buffer' => '<!-- indexer::stop -->'.$buffer.'<!-- indexer::continue -->',

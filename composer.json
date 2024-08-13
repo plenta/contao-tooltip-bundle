@@ -18,10 +18,10 @@
     },
     "require":{
         "php":"^7.4 || ^8.1",
-        "contao/core-bundle": "^4.9 || ^4.13"
+        "contao/core-bundle": "^4.9 || ^4.13 || ^5.3"
     },
     "require-dev": {
-        "contao/manager-bundle": "^4.9",
+        "contao/manager-bundle": "^5.3",
         "friendsofphp/php-cs-fixer": "^v3.38.2"
     },
     "extra": {
