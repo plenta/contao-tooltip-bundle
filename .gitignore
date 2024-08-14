@@ -28,4 +28,3 @@ nbproject/
 /app/Resources/contao/config/runonce*.php
 /app
 composer.lock
-package-lock.json
