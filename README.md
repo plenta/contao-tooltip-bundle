@@ -1,4 +1,4 @@
-# Contao Modal / Dialog / Tooltip 
+# Contao Modal / Dialog / Tooltip  / Overlay
 
 Easy way to get editor friendly additional information as a tooltip/modal popup/dialog.  
 Add tooltips/modal/dialog next to a lot of elements.  
