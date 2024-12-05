@@ -1,7 +1,7 @@
 # Contao Modal / Dialog / Tooltip  / Overlay
 
-Easy way to get editor friendly additional information as a tooltip/modal popup/dialog.  
-Add tooltips/modal/dialog next to a lot of elements.  
+Easy way to get editor friendly additional information as a tooltip/modal, popup/dialog or overlay.  
+Add tooltips/modal/dialog/overlay next to a lot of elements.  
 
 Elements will be loaded by ajax.
 
