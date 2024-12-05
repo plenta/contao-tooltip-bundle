@@ -8,6 +8,12 @@
             <trans-unit id="MOD.plenta_tooltip.1">
                 <target>Tooltips und deren Inhaltselemente verwalten</target>
             </trans-unit>
+            <trans-unit id="FMD.tooltip_overlay.0">
+                <target>Overlay</target>
+            </trans-unit>
+            <trans-unit id="FMD.tooltip_overlay.1">
+                <target>Legen Sie ein Modul an, das ein Overlay mit Inhalt über die gesamte Seite legt.</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="tl_module.overlay_richtext_legend">
+                <target>Overlay-Inhalt: Richtext</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_html_legend">
+                <target>Overlay-Inhalt: HTML</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_html_legend">
+                <target>Overlay-Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_richtext.0">
+                <target>Richtext-Inhalt</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_richtext.1">
+                <target>Hier können Sie den Inhalt des Overlay mit Hilfe des TinyMCE eingeben.</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_html.0">
+                <target>HTML-Inhalt</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_html.1">
+                <target>Hier können Sie den Inhalt des Overlay in eigenem HTML eingeben.</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_loadingTime.0">
+                <target>Ladezeitpunkt</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_loadingTime.1">
+                <target>Hier können Sie festlegen, wann das Overlay angezeigt werden soll.</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_delay.0">
+                <target>Wartezeit (in s)</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_delay.1">
+                <target>Hier können Sie festlegen, nach wie vielen Sekunden das Overlay angezeigt werden soll.</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_percent.0">
+                <target>Scrollweite (in %)</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_percent.1">
+                <target>Hier können Sie festlegen, wie weit ein Besucher scrollen muss, bis das Overlay angezeigt werden soll.</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_cookie_expires.0">
+                <target>Gültigkeit des Cookies (in Tagen)</target>
+            </trans-unit>
+            <trans-unit id="tl_module.overlay_cookie_expires.1">
+                <target>Wenn das Overlay durch den Benutzer geschlossen wird, wird ein Cookie gesetzt. Hier können Sie festlegen, nach wie vielen Tagen der Cookie gelöscht werden soll.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
