@@ -24,8 +24,8 @@ composer require plenta/contao-tooltip-bundle
 
 ## System requirements
 
-- PHP: `^7.4 || ^8.0`
-- Contao: `^4.13` (later for Contao 5)
+- PHP: `^8.0`
+- Contao: `^4.13 || ^5.3` (later for Contao 5)
 
 ## Settings
 ### Modal Popup Width Configuration
