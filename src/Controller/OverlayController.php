@@ -10,7 +10,7 @@ use Symfony\Component\Asset\Packages;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-#[AsFrontendModule(self::TYPE, category: 'misc', template: 'frontend_module/overlay')]
+#[AsFrontendModule(self::TYPE, template: 'frontend_module/overlay')]
 class OverlayController extends AbstractFrontendModuleController
 {
     public const TYPE = 'tooltip_overlay';
