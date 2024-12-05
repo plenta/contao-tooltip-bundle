@@ -11,7 +11,7 @@
             "role":"Developer"
         }
     ],
-    "homepage": "https://github.com/plenta/contao-tootlip-bundle",
+    "homepage": "https://github.com/plenta/contao-tooltip-bundle",
     "support":{
         "issues":"https://github.com/plenta/contao-tooltip-bundle/issues",
         "source":"https://github.com/plenta/contao-tooltip-bundle"
